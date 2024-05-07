@@ -1,0 +1,41 @@
+.tickets__btn{
+    margin-top: 20px;
+    background-color: #2196F3;
+    border: none;
+    border-radius: 7px;
+    padding: 15px 20px;
+    width: 502px;
+}
+.tickets__h3{
+    color: white;
+}
+.tickets__btn:hover{
+    background-color: white;
+    border: 1px #DFE5EC solid;
+}
+.tickets__btn:hover .tickets__h3{
+    color: #2196F3;
+}
+
+.tickets__btn:active{
+    background-color: #2196F3;
+    border: none;
+}
+.tickets__btn:active .tickets__h3{
+    color: white;
+}
+.tickets__list{
+    list-style-type: none;
+    padding: 0;
+}
+.list__without{
+    font-size: 32px;
+    margin-top: 20px;
+    text-align: center;
+}
+.tickets__spin{
+    text-align: center;
+}
+.custom-spin {
+  text-align: center;
+}

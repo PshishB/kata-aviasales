@@ -1,0 +1,37 @@
+
+.filter__btns{
+    width: 502px;
+}
+
+.filter__btn{
+    padding: 15px 24px;
+    border: 1px #DFE5EC solid;
+    background-color: #FFFFFF;
+    transition: 0.5s;
+}
+.filter__btn:hover{
+    background-color: #2196F3;
+    border: none;
+}
+.filter__btn:hover h3{
+    color: white;
+}
+.filter__btn h3{
+    font-weight: 600;
+    line-height: 20px;
+}
+.filter__btn:first-of-type{
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.filter__btn:last-of-type{
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.blue {
+    background-color: #2196F3;
+    border: none;
+}
+.blue h3{
+    color: white;
+}

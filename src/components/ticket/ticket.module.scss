@@ -1,0 +1,25 @@
+.app__ticket{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 2px 8px 0 #0000001A;
+}
+.ticket__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ticket__bottom{
+    margin-top: 20px;
+    display: grid;
+    align-items: start;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+h2{
+    font-size: 24px;
+    color: #2196F3 !important;
+}
