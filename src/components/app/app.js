@@ -23,7 +23,7 @@ const App = () => {
   return (
     <div className={clasess.app}>
       <div className={clasess['app__img']}>
-        <img src="/imgs/logo.svg" alt="logo"></img>
+        <img src="../../../public/imgs/Logo.svg" alt="logo"></img>
       </div>
       <div className={`${clasess['app__container']} ${clasess.container}`}>
         <Tabs />
