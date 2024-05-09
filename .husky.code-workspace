@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": ".husky",
+			"path": ".husky"
+		},
+		{
+			"name": "social",
+			"path": "../social"
+		}
+	],
+	"settings": {}
+}

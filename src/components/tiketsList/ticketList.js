@@ -65,11 +65,16 @@ const TicketList = () => {
 
   return (
     <div>
+      {status === 'loading' && (
+        <div className={classes['tickets__loading']}>
+          {' '}
+          <Spin />
+        </div>
+      )}
       <ul className={classes['tickets__list']}>{items}</ul>
       <button className={classes['tickets__btn']} onClick={() => onButtonLoadClick()}>
         <h3 className={classes['tickets__h3']}>ПОКАЗАТЬ ЕЩЕ 5 БИЛЕТОВ!</h3>
       </button>
-      {status === 'loading' && <Spin />}
     </div>
   );
 };

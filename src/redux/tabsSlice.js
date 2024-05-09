@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 const tabsSlices = createSlice({
   name: 'tabs',
   initialState: {
-    tabs: [],
+    tabs: ['without', 'onePer', 'twoPer', 'threePer'],
   },
   reducers: {
     deleteTab(state, action) {
